@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .proposal-container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+        .proposal-message {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .proposal-button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .proposal-button:hover {
+            background-color: #3e8e41;
+ 	}
+    </style>
+</head>
+<body>
+    <div class="proposal-container">
+        <h1 class="proposal-message">Will You Love Me?</h1>
+        <p>[Karthik] loves [Srileka] and wants to spend the rest of their life together.</p>
+        <button class="proposal-button" onclick="showAnswer()">Yes/No?</button>
+        <div id="answer" style="display: none;">
+            <p>Yessss! I'd love to marry you!</p>
+        </div>
+    </div>
+ <script>
+        function showAnswer() {
+            document.getElementById("answer").style.display = "block";
+        }
+    </script>
+</body>
+</html>
+
+<span style="font-size: 24px; color: red; animation: blink 1s infinite;">I Love You</span>
+<style>
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
+
+
